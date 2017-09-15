@@ -27,6 +27,10 @@ Partial Class Menu
         Me.MaquinasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SuplementosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.EmpleadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -41,7 +45,7 @@ Partial Class Menu
         '
         'ABMsToolStripMenuItem
         '
-        Me.ABMsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MaquinasToolStripMenuItem, Me.ToolStripMenuItem1, Me.ClientesToolStripMenuItem})
+        Me.ABMsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MaquinasToolStripMenuItem, Me.ToolStripMenuItem1, Me.ClientesToolStripMenuItem, Me.ToolStripMenuItem2, Me.SuplementosToolStripMenuItem, Me.ToolStripMenuItem3, Me.EmpleadosToolStripMenuItem})
         Me.ABMsToolStripMenuItem.Name = "ABMsToolStripMenuItem"
         Me.ABMsToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.ABMsToolStripMenuItem.Text = "ABM's"
@@ -62,6 +66,28 @@ Partial Class Menu
         Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
         Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ClientesToolStripMenuItem.Text = "Clientes"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(149, 6)
+        '
+        'SuplementosToolStripMenuItem
+        '
+        Me.SuplementosToolStripMenuItem.Name = "SuplementosToolStripMenuItem"
+        Me.SuplementosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SuplementosToolStripMenuItem.Text = "Suplementos"
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(149, 6)
+        '
+        'EmpleadosToolStripMenuItem
+        '
+        Me.EmpleadosToolStripMenuItem.Name = "EmpleadosToolStripMenuItem"
+        Me.EmpleadosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EmpleadosToolStripMenuItem.Text = "Empleados"
         '
         'Menu
         '
@@ -84,4 +110,8 @@ Partial Class Menu
     Friend WithEvents MaquinasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As ToolStripSeparator
     Friend WithEvents ClientesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As ToolStripSeparator
+    Friend WithEvents SuplementosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem3 As ToolStripSeparator
+    Friend WithEvents EmpleadosToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -97,10 +97,22 @@
     <Compile Include="..\..\example\ABM maquinas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ABM sumplementos.Designer.vb">
+      <DependentUpon>ABM sumplementos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM sumplementos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Menu.Designer.vb">
       <DependentUpon>Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\ABM empleados.Designer.vb">
+      <DependentUpon>ABM empleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\ABM empleados.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -126,8 +138,14 @@
     <EmbeddedResource Include="..\..\example\ABM maquinas.resx">
       <DependentUpon>ABM maquinas.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ABM sumplementos.resx">
+      <DependentUpon>ABM sumplementos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\ABM empleados.resx">
+      <DependentUpon>ABM empleados.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -7,4 +7,12 @@
         Form1.ShowDialog()
 
     End Sub
+
+    Private Sub SuplementosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SuplementosToolStripMenuItem.Click
+        ABM_sumplementos.ShowDialog()
+    End Sub
+
+    Private Sub EmpleadosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmpleadosToolStripMenuItem.Click
+        ABM_empleados.ShowDialog()
+    End Sub
 End Class
